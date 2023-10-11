@@ -1,0 +1,37 @@
+ID: Data_Ingestion
+_schema-version: '2.1'
+version: 0.0.7
+modules:
+  - name: Data_Ingestion-db
+    type: hdb
+    path: db
+    requires:
+      - name: Data_Ingestion-hdi_db
+        properties:
+          TARGET_CONTAINER: '~{hdi-container-name}'
+      - name: remote-source-grantor-ups
+        group: SERVICE_REPLACEMENTS
+        properties:
+          key: remote-source-grantor
+          service: '~{remote-source-grantor-name}'
+  - name: scheduling_di
+    type: nodejs
+    path: scheduling_di
+    provides:
+      - name: scheduling_di_api
+        properties:
+          url: '${default-url}'
+    requires:
+      - name: Data_Ingestion-hdi_db
+      - name: Data_Ingestion-db
+resources:
+  - name: Data_Ingestion-hdi_db
+    properties:
+      hdi-container-name: '${service-name}'
+    type: com.sap.xs.hdi-container
+  - name: remote-source-grantor-ups
+    type: org.cloudfoundry.existing-service
+    parameters:
+      service-name: CC_ACCESS
+    properties:
+      remote-source-grantor-name: '${service-name}'

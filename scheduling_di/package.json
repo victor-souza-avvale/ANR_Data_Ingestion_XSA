@@ -1,0 +1,12 @@
+{
+  "main": "server.js",
+  "dependencies": {
+    "@sap/xsenv": "^3",
+    "@sap/xssec": "^3",
+    "@sap/hdbext": "^7",
+    "@sap/jobs-client": "^1",
+    "express": "^4",
+    "passport": "^0.5.0",
+    "python": "^0.0.4"
+  }
+}

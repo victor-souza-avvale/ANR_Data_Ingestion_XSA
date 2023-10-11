@@ -1,0 +1,4 @@
+COLUMN TABLE "M_TIME_DIMENSION_YEAR" (
+"YEAR" NVARCHAR(4) primary key not null,
+"YEAR_INT" Integer,
+"IS_LEAP_YEAR" Integer)

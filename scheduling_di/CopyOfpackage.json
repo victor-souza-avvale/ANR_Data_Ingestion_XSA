@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "@sap/xsenv": "latest",
+    "@sap/xsjs": "latest"
+  },
+  "description": "Data Ingestion scheduling",
+  "devDependencies": {
+    "@sap/xsjs-test": "^3"
+  },
+  "files": [],
+  "main": "server.js",
+  "name": "scheduling_di",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node testrun.js"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "version": "1.0.0"
+}

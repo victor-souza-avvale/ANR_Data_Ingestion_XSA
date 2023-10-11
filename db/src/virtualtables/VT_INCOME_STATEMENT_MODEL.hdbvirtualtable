@@ -1,0 +1,38 @@
+VIRTUAL TABLE "VT_INCOME_STATEMENT_MODEL" AT "RS_ANRITSU_FILEADAPTER"."<NULL>"."<NULL>"."INCOME_STATEMENT_MODEL_FORMAT"
+REMOTE PROPERTY 'dataprovisioning_parameters'='<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Parameters>
+<Parameter name="FORMAT">CSV</Parameter>
+<Parameter name="FORCE_FILENAME_PATTERN">ExportCsv_Income%.csv</Parameter>
+<Parameter name="PARTITIONS">0</Parameter>
+<Parameter name="CODEPAGE">utf-8</Parameter>
+<Parameter name="LOCALE">en_US</Parameter>
+<Parameter name="SKIP_HEADER_LINES">1</Parameter>
+<Parameter name="ROW_DELIMITER">\n</Parameter>
+<Parameter name="TEXT_QUOTES">&quot;</Parameter>
+<Parameter name="QUOTED_TEXT_CONTAIN_ROW_DELIMITER">false</Parameter>
+<Parameter name="COLUMN_DELIMITER">,</Parameter>
+<Parameter name="EXPONENTIAL">E</Parameter>
+<Parameter name="LENIENT">true</Parameter>
+<Parameter name="COLUMN">AccountId;NVARCHAR(200);</Parameter>
+<Parameter name="COLUMN">AccountDescription;NVARCHAR(200);</Parameter>
+<Parameter name="COLUMN">AccountParentId;NVARCHAR(200);</Parameter>
+<Parameter name="COLUMN">VersionVersion;NVARCHAR(200);</Parameter>
+<Parameter name="COLUMN">VersionCategory;NVARCHAR(200);</Parameter>
+<Parameter name="COLUMN">VersionType;NVARCHAR(200);</Parameter>
+<Parameter name="COLUMN">DateYear;NVARCHAR(200);</Parameter>
+<Parameter name="COLUMN">DateQuarter;NVARCHAR(200);</Parameter>
+<Parameter name="COLUMN">DateMonth;NVARCHAR(200);</Parameter>
+<Parameter name="COLUMN">DateDAY;NVARCHAR(200);</Parameter>
+<Parameter name="COLUMN">Profit_CenterId;NVARCHAR(200);</Parameter>
+<Parameter name="COLUMN">Profit_CenterDescription;NVARCHAR(200);</Parameter>
+<Parameter name="COLUMN">Cost_CenterId;NVARCHAR(200);</Parameter>
+<Parameter name="COLUMN">Cost_CenterDescription;NVARCHAR(200);</Parameter>
+<Parameter name="COLUMN">Audit_TrailId;NVARCHAR(200);</Parameter>
+<Parameter name="COLUMN">Audit_TrailDescription;NVARCHAR(200);</Parameter>
+<Parameter name="COLUMN">CustomerId;NVARCHAR(200);</Parameter>
+<Parameter name="COLUMN">CustomerDescription;NVARCHAR(200);</Parameter>
+<Parameter name="COLUMN">Value;DECIMAL(15,7);</Parameter>
+<Parameter name="COLUMN">ValueUnit;NVARCHAR(200);</Parameter>
+<Parameter name="COLUMN">LocalValue;DECIMAL(15,7);</Parameter>
+<Parameter name="COLUMN">LocalValueUnit;NVARCHAR(200);</Parameter>
+</Parameters>';

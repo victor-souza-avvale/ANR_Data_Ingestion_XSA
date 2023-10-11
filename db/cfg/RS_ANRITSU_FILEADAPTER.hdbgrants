@@ -1,0 +1,22 @@
+{
+	"remote-source-grantor": {
+		"object_owner": {
+			"global_object_privileges": [{
+				"name": "RS_ANRITSU_FILEADAPTER",
+				"type": "REMOTE SOURCE",
+				"privileges": [
+					"CREATE VIRTUAL TABLE", "CREATE REMOTE SUBSCRIPTION"
+				]
+			}]
+		},
+		"application_user": {
+			"global_object_privileges": [{
+				"name": "RS_ANRITSU_FILEADAPTER",
+				"type": "REMOTE SOURCE",
+				"privileges": [
+					"ALTER", "CREATE VIRTUAL TABLE", "PROCESS REMOTE SUBSCRIPTION EXCEPTION"
+				]
+			}]
+		}
+	}
+}

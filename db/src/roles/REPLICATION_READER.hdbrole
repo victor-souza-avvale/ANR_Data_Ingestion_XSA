@@ -1,0 +1,1321 @@
+{
+	"role": {
+		"name": "REPLICATION_READER",
+		"object_privileges": [{
+				"name": "TARGET_MARA",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_MARC",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_MAKT",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_SKAT",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_ACDOCA",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_SKA1",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_ACDOCA",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_ADRC",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_AFIH",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_AUFK",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_BKPF",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_BSEG",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_BUT000",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_CABN",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_CEPC",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_CEPC_BUKRS",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_CEPCT",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_CSKS",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_CSKT",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_DD07T",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_EQUI",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_FAAI_MOVCATT",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_FAGL_SEGM",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_FAGL_SEGMT",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_FMBUDGETPDT",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_GLOFAANCLCODET",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_GLOFAATAXDEPGRPT",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_KNA1",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_MAKT",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_MARA",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_MATDOC",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_MBEW",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_PRPS",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_QMEL",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_SKAT",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_T001",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_T001K",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_T001L",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_T001W",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_T004T",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_T005T",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_T006A",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_T151",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_T151T",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_TABWT",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_TFKBT",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_TGSBT",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_TKA01",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_TSPA",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_TSPAT",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_TVKO",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_TVKOT",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_TVTW",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_TVTWT",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_ACDOCA",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_MAKT",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_MARA",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_MARC",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			},
+
+			{
+				"name": "TARGET_BUT000",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_PRCD_ELEMENTS",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_MAKT",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_KNA1",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+
+			}, {
+				"name": "TARGET_TCURC",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+
+			}, {
+				"name": "TARGET_TCURF",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+
+			}, {
+				"name": "TARGET_TCURR",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+
+			}, {
+				"name": "TARGET_TCURT",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_TCURV",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_TCURW",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_TCURN",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_ANLH",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_ANLT",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_TCURX",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_GMGRTEXTS",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_T009T",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_T087S",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_T087T",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_T096T",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_T499S",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_INCOME_STATEMENT_MODEL",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_TVBUR",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_TVKBT",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_TVK3T",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_TVK6T",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_TVV5",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_TVV5T",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_BSET",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_TVAG",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_TVAGT",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_SETHEADERT",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_MARD",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_EQBS",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_INOB",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_AUSP",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_TB005",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_TB006",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_ZSD_ADJUSTMENTS",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_TVAK",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_TVAKT",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_TVV2",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_TVV2T",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_TVV3",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_TVV3T",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_TVV4",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_TVV4T",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_EBAN",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_EBKN",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_LFA1",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_LIKP",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_LQUA",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_PMSDO",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_JCDS",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_VBAK",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_VBRP",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_VBFA",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			},
+
+			{
+				"name": "TARGET_VBAP",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_VBKD",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_VBPA",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_AFRU",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_QMFE",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_TJ30T",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_BUT020",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_MVKE",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_TVM3T",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_KNVV",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_VBRK",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_T052",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_T188T",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_T052T" ,
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_T052U" ,
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_EKKN" ,
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_TVAU" ,
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_TVSBT" ,
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_VBEP" ,
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_TVLS" ,
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_EORD" ,
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_EINA" ,
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_TVSTT" ,
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_TVLST" ,
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_EINE" ,
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_TVAUT" ,
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_T024D" ,
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_MLGT" ,
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_TVM1T" ,
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_EKKO" ,
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_EKPO" ,
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_EKET" ,
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_PLAF" ,
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_MDTB" ,
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_MDKP" ,
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_T458A" ,
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_TFACD" ,
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_LIPS" ,
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_MAST" ,
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_ADR6" ,
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_STPO" ,
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_TVZBT" ,
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_EBEW" ,
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_EIPA" ,
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_CRHD" ,
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_CRCA" ,
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_CRCO" ,
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_CRTX" ,
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_PLPO" ,
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_PLKO" ,
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_MAPL" ,
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_MAPL" ,
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_TINCT" ,
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_TVAVT" ,
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_TVGRT" ,
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_KEKO" ,
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_KEPH" ,
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_T134G" ,
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_PBED" ,
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_PBIM" ,
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_RESB" ,
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_IHPA" ,
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_PA0001" ,
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_THOC" ,
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_TFACS" ,
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_AFKO" ,
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_TVBST" ,
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_USR21" ,
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_AUFM" ,
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_VBUK" ,
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}
+, {
+				"name": "TARGET_KNKK" ,
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_KNVK",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_OBJK",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_JEST",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_ADRP",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_EKBE",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_RSEG",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_MKPF",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_UKMBP_CMS_SGM",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "ZQM_ORDER_NOTIF",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_ZSD_OSB_EXTRCT1",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_ZSD_OSB_EXTRCT2",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_KNVI",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_EKKI",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_IKPF",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_ISEG",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_LINV",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_MSTA",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_MSSA",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_VEPVG",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_VETVG",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_STKO",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_MARV",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			},{
+				"name": "TARGET_MSKA",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_MSKAH",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_/SAPSLL/MARLRG",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_/SAPSLL/MARITC",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_SER01",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_LTAP",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_LTAK",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_T156",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_TSTC",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}, {
+				"name": "TARGET_TSTCT",
+				"type": "TABLE",
+				"privileges": [
+					"SELECT"
+				]
+			}
+
+
+
+		]
+	}
+}
